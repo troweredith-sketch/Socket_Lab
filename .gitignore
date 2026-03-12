@@ -1,3 +1,8 @@
 .venv/
 __pycache__/
 .vscode/
+
+# 忽略服务器接收到的所有文件
+data_server/*
+# 但强制保留 data_server 目录下的 .gitkeep 占位文件
+!data_server/.gitkeep
