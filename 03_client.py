@@ -2,7 +2,7 @@ import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-client_socket.connect(('43.99.112.155', 10086))
+client_socket.connect(('139.224.228.212', 10086))
 
 data = client_socket.recv(1024).decode('utf-8')
 print(f'客户端收到：{data}')
