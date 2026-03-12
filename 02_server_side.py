@@ -8,7 +8,7 @@ server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 server_socket.bind(('0.0.0.0', 10086))
 server_socket.listen(5)
 
-print("🚀 云服务器已启动，正在向全世界监听 10086 端口...")
+print("🚀 云服务器已启动，这是我在云端修改的版本！")
 
 while True:
     try:
