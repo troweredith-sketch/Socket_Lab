@@ -2,7 +2,7 @@ import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-client_socket.connect(("127.0.0.1", 10086))
+client_socket.connect(("139.224.228.212", 10086))
 
 with open('./data_client/1.txt', 'rb') as src_f:
     while True:
